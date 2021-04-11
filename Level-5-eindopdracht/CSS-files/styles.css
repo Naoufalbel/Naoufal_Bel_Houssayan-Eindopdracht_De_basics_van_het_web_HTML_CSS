@@ -1,0 +1,83 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;   
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+    background-color: blue;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    color: black;
+    margin: 0px 10px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.footer {
+    background-color: lightgrey;
+    color: white;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 10px;
+    color: white;
+}
+
+.copyright {
+    padding-left: 10px;
+}
+
+.form {
+    padding: 0px 10px 10px 10px;
+    margin: 10px 10px;
+}
+
+.sitemap {
+    padding: 0px 10px 10px 10px;
+    margin: 10px 10px;
+}
+
+.sitemap-list {
+    list-style: none;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 10px;
+}
+
+.inputbox {
+    height: 20px;
+    width: 190px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color:black;
+}
+
+
+

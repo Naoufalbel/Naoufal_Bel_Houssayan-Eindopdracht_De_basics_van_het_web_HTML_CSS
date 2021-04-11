@@ -1,0 +1,27 @@
+.bodywrapper {
+    display: grid;
+    grid-template-rows: 80px 800px 1fr;
+}
+
+.lijst-samenstellen {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-template-rows: repeat(6,30px);
+    width: 120px;
+    align-items: center;
+    row-gap: 10px;
+}
+
+main > h3 {
+    padding-left: 30px;
+}
+
+main > p {
+    padding-left: 30px;
+}
+
+.video {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}

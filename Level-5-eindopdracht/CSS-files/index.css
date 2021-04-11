@@ -1,0 +1,36 @@
+.bodywrapper {
+    display: grid;
+    grid-template-rows: 80px 500px 1fr;
+}
+
+main > h2 {
+    display: grid;
+    justify-items: center;
+}
+
+.img-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img-div > a {
+    display: grid;
+    justify-self: center;
+}
+
+main > p {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.img-div > a > img {
+    width: 250px;
+    height: 200px;
+}
+
+.img-div > a {
+    width: 250px;
+    height: 200px;
+}
+

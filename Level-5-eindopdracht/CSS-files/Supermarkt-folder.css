@@ -1,0 +1,37 @@
+.bodywrapper {
+    display: grid;
+    grid-template-rows: 80px 1700px 1fr ;
+}
+
+main {
+    display: grid;
+    justify-self: center;
+}
+
+.folder-ah {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.folder-jumbo {
+    background-color: yellow;
+    color: grey;
+    width: 300px;
+    height: 400px;
+}
+
+.folder-coop {
+    background-color: orange;
+    color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.folder-plus {
+    background-color: green;
+    color: white;
+    width: 300px;
+    height: 400px;
+}

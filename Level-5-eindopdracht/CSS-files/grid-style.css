@@ -1,0 +1,23 @@
+.header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 300px 2fr 1fr;
+    grid-template-rows: 200px 50px;
+}
+
+.copyright {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.form {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
